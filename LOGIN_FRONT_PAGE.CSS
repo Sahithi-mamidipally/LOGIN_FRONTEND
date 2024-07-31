@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+@keyframes animateBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.login {
+	border: 1px solid black;
+	
+	color: ghostwhite;
+	border-radius: 20px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	background-position: center;
+	overflow: hidden;
+	background-image: linear-gradient(to right,#8e44ad, #20a4f3, #2ec4b6);
+  background-size: 400% 400%;
+  animation: animateBackground 10s ease infinite;
+	width: 400px;
+	height: 500px;
+
+}
+
+form {
+	
+	box-sizing: border-box;
+	padding: 40px;
+	width: 100%;
+	height: 100%;
+	
+	flex-direction: column;
+	display: flex;
+	gap: 5px;
+
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 24px;
+	text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	margin-bottom: 60px;
+
+}
+
+label {
+	color :
+	text-transform: uppercase;
+	fonr-size: 10px;
+	letter-spacing: 2px;
+	padding-left: 10px;
+
+}
+
+input {
+	background: ;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	padding: 0px 20px;
+	border: none;
+	margin-bottom: 20px;
+	color: white;
+
+}
+
+button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+#btn:hover,
+:focus {
+  color: #0d1f2d;
+  background: #aaaaaa;
+  border: 1px solid #008cff;
+  box-shadow: 0 0 5px #aaaaaa, 0 0 20px #aaaaaa, 0 0 50px #aaaaaa,
+    0 0 100px #aaaaaa;
+}
+
+
+
